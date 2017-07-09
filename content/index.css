@@ -1,0 +1,70 @@
+html, body
+{
+	height: 100%;
+	position: relative;
+	background: #e7e7e7;
+}
+#bodi
+{
+	min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+#page
+{
+	margin-top: 3.7em;
+	margin-bottom: 5em;
+    padding: 0 0 150px;
+}
+footer
+{
+	background: /*#d7122b;*/#d9534f;
+	position: absolute;
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+}
+#logo
+{
+	width: 50px;
+}
+thead
+{
+	background-color: #d9534f;
+}
+.jump-max
+{
+	margin-top: 7em;
+}
+.jump-min
+{
+	margin-top: 2em;
+}
+.nov
+{
+	display: none;
+}
+.throw-down
+{
+	margin-bottom: 5em;
+}
+/*A partir de aqui es mi bootstrap modificado*/
+.jumbotron
+{
+	background: #d9534f;
+}
+.btn
+{
+	color: #242424;
+}
+/************* Esta parte permite crear barras de desplazamiento en los modales ****************/
+.modal-barra
+{
+    overflow-y: initial !important
+}
+.body-barra
+{
+    height: 700px;	/* Aqui se ajustan el tamaño del modal permitiendo personalizarlo de una manera optima, aqui se modifica para la parte de nueva cita */
+    overflow-y: auto;
+}
